@@ -1,0 +1,80 @@
+.tooltipp {
+	line-height: 1;
+	font-weight: bold;
+	padding: 12px;
+	background: #eee;
+	color: black;
+	border-radius: 2px;
+	text-align: center;
+	box-shadow: 0 0 5px #999999;
+	position: absolute;
+	width: 100px;
+}
+
+.tooltip-pie {
+	line-height: 1;
+	font-weight: bold;
+	padding: 12px;
+	background: #eee;
+	color: black;
+	border-radius: 2px;
+	text-align: center;
+	box-shadow: 0 0 5px #999999;
+	position: absolute;
+	width: 385px;
+	top: 20px;
+	right: -70px;
+}
+
+.legend {
+	font-size: 12px;
+}
+
+rect {
+	stroke-width: 2;
+}
+
+.chart {
+	background: #eee;
+	padding: 3px;
+}
+
+.chart div {
+	width: 0;
+	transition: all 1s ease-out;
+	-moz-transition: all 1s ease-out;
+	-webkit-transition: all 1s ease-out;
+}
+
+.chart div {
+	font: 10px sans-serif;
+	background-color: steelblue;
+	text-align: right;
+	padding: 3px;
+	margin: 5px;
+	color: white;
+	box-shadow: 2px 2px 2px #666;
+}
+
+.axis path,.axis line {
+	fill: none;
+	stroke: black;
+	shape-rendering: crispEdges;
+}
+
+.axis path {
+	fill: none;
+	stroke: none;
+}
+
+.bar {
+	fill: steelblue;
+}
+
+.bar:hover {
+	fill: brown;
+}
+
+.arc:hover {
+	fill-opacity: .7
+}

@@ -3,9 +3,10 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Hairball">
+    <meta name="description" content="QUEUE">
     <title>DLQ IHM</title>
-    <link rel="stylesheet" href="/css/main.css" />       
+    <link rel="stylesheet" href="/css/main.css" /> 
+    <link rel="stylesheet" href="vendor/bootstrap/dist/css/bootstrap.min.css" />      
 
    
   </head>
@@ -19,16 +20,27 @@
 
     <footer class="container text-center"></footer>
     
+    <script type="text/javascript" src="vendor/jquery/jquery.min.js"></script>
+    <script type="text/javascript" src="vendor/bootstrap/dist/js/bootstrap.min.js"></script>
     <script type="text/javascript" src="vendor/angular/angular.min.js"></script>
     <script type="text/javascript" src="vendor/angular-resource/angular-resource.min.js"></script>
     <script type="text/javascript" src="vendor/angular-route/angular-route.min.js"></script>
     <script type="text/javascript" src="vendor/angular-sanitize/angular-sanitize.min.js"></script>
     <script type="text/javascript" src="vendor/angular-bootstrap/ui-bootstrap-tpls.min.js"></script>
+    <script type="text/javascript" src="vendor/d3.js"></script>
+    
+    <script type="text/javascript" src="app/common/filters.js"></script>
+    <script type="text/javascript" src="app/common/directive.js"></script>
 
     <script type="text/javascript" src="app/app.js"></script>
     <script type="text/javascript" src="app/group/GroupCtrl.js"></script>
+    <script type="text/javascript" src="app/group/GroupFactory.js"></script>
     <script type="text/javascript" src="app/home/HomeCtrl.js"></script>
-
+    <script type="text/javascript" src="app/home/HomeFactory.js"></script>
+    <script type="text/javascript" src="app/home/D3Ctrl.js"></script>  
+    
+	
+	
     
   </body>
 </html>
